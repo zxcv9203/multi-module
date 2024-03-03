@@ -20,4 +20,9 @@ public class ExampleApi {
     public String find() {
         return exampleService.unknownError();
     }
+
+    @GetMapping("/exception")
+    public void exception() {
+        exampleService.throwException();
+    }
 }
