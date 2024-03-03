@@ -1,9 +1,12 @@
-package org.example;
+package org.example.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {
+        "org.example.api",
+        "org.example.core"
+})
 public class ApiApplication {
 
     public static void main(String[] args) {
