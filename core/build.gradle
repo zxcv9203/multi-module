@@ -33,3 +33,7 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// ./gradlew clean :api:buildNeeded --refresh-dependencies -x test
+tasks.bootJar { enabled = false }
+tasks.jar { enabled = true}
