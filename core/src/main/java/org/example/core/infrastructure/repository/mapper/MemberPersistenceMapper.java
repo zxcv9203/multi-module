@@ -1,6 +1,6 @@
 package org.example.core.infrastructure.repository.mapper;
 
-import org.example.core.domain.Member;
+import org.example.core.domain.member.Member;
 import org.example.core.infrastructure.repository.model.MemberJpaEntity;
 import org.springframework.stereotype.Component;
 

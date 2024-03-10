@@ -1,4 +1,4 @@
-package org.example.core.domain;
+package org.example.core.domain.member;
 
 public interface MemberRepository {
     Member save(Member member);

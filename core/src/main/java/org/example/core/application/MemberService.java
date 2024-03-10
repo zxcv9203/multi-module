@@ -1,8 +1,8 @@
 package org.example.core.application;
 
 import lombok.RequiredArgsConstructor;
-import org.example.core.domain.Member;
-import org.example.core.domain.MemberRepository;
+import org.example.core.domain.member.Member;
+import org.example.core.domain.member.MemberRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

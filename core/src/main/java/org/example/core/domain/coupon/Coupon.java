@@ -1,4 +1,4 @@
-package org.example.core.domain;
+package org.example.core.domain.coupon;
 
 import jakarta.persistence.*;
 import lombok.*;

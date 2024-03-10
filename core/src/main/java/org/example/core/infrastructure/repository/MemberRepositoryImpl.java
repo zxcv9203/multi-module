@@ -1,10 +1,10 @@
 package org.example.core.infrastructure.repository;
 
 import lombok.RequiredArgsConstructor;
-import org.example.core.domain.Member;
+import org.example.core.domain.member.Member;
 import org.example.core.infrastructure.repository.mapper.MemberPersistenceMapper;
 import org.example.core.infrastructure.repository.model.MemberJpaEntity;
-import org.example.core.domain.MemberRepository;
+import org.example.core.domain.member.MemberRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository

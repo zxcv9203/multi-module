@@ -1,4 +1,4 @@
-package org.example.core.domain;
+package org.example.core.domain.member;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
