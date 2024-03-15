@@ -2,3 +2,4 @@ rootProject.name = 'multi-module'
 
 include 'api'
 include 'core'
+include 'batch'
