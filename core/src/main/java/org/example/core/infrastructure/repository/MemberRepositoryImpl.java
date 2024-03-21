@@ -23,7 +23,7 @@ public class MemberRepositoryImpl implements MemberRepository {
     @Override
     public Member findById(Long id) {
         MemberJpaEntity memberJpaEntity = jpaMemberRepository.findById(id)
-                .orElseThrow(IllegalArgumentException::new);
+                .orElseThrow(() -> new IllegalArgumentException("해당하는 멤버를 찾을 수 없습니다."));
         return memberPersistenceMapper.toDomain(memberJpaEntity);
     }
 
