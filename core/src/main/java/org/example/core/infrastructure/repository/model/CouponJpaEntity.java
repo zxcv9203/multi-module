@@ -18,6 +18,11 @@ public class CouponJpaEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @ManyToOne
+    @JoinColumn
+    @Comment("멤버 ID")
+    private MemberJpaEntity member;
+
     @Column(name = "name")
     @Comment("이름")
     private String name;

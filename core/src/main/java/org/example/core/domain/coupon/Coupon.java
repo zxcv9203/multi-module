@@ -4,6 +4,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import org.example.core.domain.member.Member;
 
 import java.time.LocalDateTime;
 
@@ -12,6 +13,8 @@ import java.time.LocalDateTime;
 @Getter
 public class Coupon {
     private Long id;
+
+    private Member owner;
 
     private String name;
 
