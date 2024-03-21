@@ -3,7 +3,7 @@ package org.example.api.infrastructure.rest;
 import lombok.RequiredArgsConstructor;
 import org.example.api.infrastructure.rest.request.MemberCreateRequest;
 import org.example.core.application.MemberService;
-import org.example.core.domain.Member;
+import org.example.core.domain.member.Member;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
