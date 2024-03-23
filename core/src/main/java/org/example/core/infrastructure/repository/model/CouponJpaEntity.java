@@ -19,15 +19,15 @@ public class CouponJpaEntity {
     private Long id;
 
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "member_id")
     @Comment("멤버 ID")
-    private MemberJpaEntity member;
+    private MemberJpaEntity owner;
 
     @Column(name = "name")
     @Comment("이름")
     private String name;
 
-    @Column(name = "상태")
+    @Column(name = "status")
     @Enumerated(EnumType.STRING)
     @Comment("상태")
     private CouponStatus status;
